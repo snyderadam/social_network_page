@@ -3,20 +3,21 @@
     margin: auto;
 }
 
+
+
 .header{
     width: 850px;
     background-color: cornflowerblue;
-    height: 300px;
+    height: 200px;
 }
 .profile_pic {
     width: 150px;
     height: 150px;
     position: relative;
-    border: black dotted 1px;
-    left: -325px;
-    top: -150px;
-    background-image: url(https://live.staticflickr.com/5008/5287215366_6c6e1c7472_b.jpg);
-    object-fit: contain;
+    left: -340px;
+    top: -175px;
+    background-image: url(https://deepfriedbits.files.wordpress.com/2014/07/otg5d52416-1.jpg);
+   border-radius: 2%;
 }
 
 
@@ -27,7 +28,7 @@
     background-color: white;
     width: 600px;
     top: -50px;
-    padding-left: 75px;
+    padding-left: 40px;
     padding-top: 10px;
     column-count: 5;
     column-gap: 5px;
@@ -38,7 +39,7 @@
     font-weight: lighter;
     font-family: sans-serif;
     text-align: center;
-
+    padding-right: 140px;
 }
 
 
@@ -55,7 +56,7 @@
     background-color: cornflowerblue;
     position: relative;
     top: -300px;
-    left: -150px;
+    left: -160px;
     padding-top: 40px;
     color: white;
     font-family: sans-serif;
@@ -66,14 +67,66 @@
 .button1{
     background-color: white;
     font-size: 12px;
-    border: 1px solid gray;
+    border: 1px solid lightgrey;
     font-family: sans-serif;
     height: 30px;
     width: 60px;
     position: relative;
-    top: -350px;
-    left: 250px;
+    top: -340px;
+    left: 795px;
     text-align: center;
     padding-top: 3px;
+    font-weight: bold;
+    border-radius: 7%;
     
+}
+
+.follow{
+    background-color: white;
+    font-size: 12px;
+    border: 1px solid lightgrey;
+    font-family: sans-serif;
+    height: 30px;
+    width: 70px;
+    position: relative;
+    text-align: center;
+    padding-top: 3px;
+    top: -341px;
+    left: 800px;
+    font-weight: lighter;
+    border-radius: 7%;
+}
+
+
+.message{
+    background-color: white;
+    font-size: 12px;
+    border: 1px solid lightgrey;
+    font-family: sans-serif;
+    height: 30px;
+    width: 80px;
+    position: relative;
+    text-align: center;
+    padding-top: 3px;
+    top: -341px;
+    left: 795px;
+    font-weight: bold;
+   
+   
+}
+
+.dots{
+    background-color: white;
+    font-size: 20px;
+    border: 1px solid lightgrey;
+    font-family: sans-serif;
+    height: 30px;
+    width: 45px;
+    position: relative;
+    text-align: center;
+    padding-top: 3px;
+    top: -338px;
+    left: 790px;
+    font-weight: bold;
+    border-radius: 7%;
 }
