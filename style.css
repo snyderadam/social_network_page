@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.header{
+    width: 850px;
+    background-color: cornflowerblue;
+    height: 300px;
+}
+.profile_pic {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border: black dotted 1px;
+    left: -325px;
+    top: -150px;
+    background-image: url(https://live.staticflickr.com/5008/5287215366_6c6e1c7472_b.jpg);
+    object-fit: contain;
+}
+
+
+
+
+.white_box{
+    height: 50px;
+    background-color: white;
+    width: 600px;
+    top: -50px;
+    padding-left: 75px;
+    padding-top: 10px;
+    column-count: 5;
+    column-gap: 5px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: lightgray;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+
+
+.Larry{
+    
+}
+
+
+
+.username {
+    width: 200px;
+    height: 100px;
+    background-color: cornflowerblue;
+    position: relative;
+    top: -300px;
+    left: -150px;
+    padding-top: 40px;
+    color: white;
+    font-family: sans-serif;
+    padding-left: 10px;
+
+}
+
+.button1{
+    background-color: white;
+    font-size: 12px;
+    border: 1px solid gray;
+    font-family: sans-serif;
+    height: 30px;
+    width: 60px;
+    position: relative;
+    top: -350px;
+    left: 250px;
+    text-align: center;
+    padding-top: 3px;
+    
+}
