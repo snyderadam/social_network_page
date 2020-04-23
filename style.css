@@ -147,7 +147,7 @@
     border: 1px solid lightgray;
     position: relative;
     top: -900px;
-    left: 172px;
+    left: 170px;
     background-color: cornflowerblue;
 }
 .box1{
@@ -164,4 +164,19 @@
     position: relative;
     top: 20px;
 
+}
+.box3{
+    border: 1px solid lightgray;
+    position: relative;
+    background-color: lightskyblue;
+    width: 298px;
+    height: 25%;
+    top: 10px;
+    padding-top: 10px;
+
+}
+.box3 .text{
+    text-align: center;
+    font-family: sans-serif;
+    color: whitesmoke;
 }
